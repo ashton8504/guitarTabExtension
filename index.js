@@ -41,7 +41,7 @@ function render(guitarTabs) {
         deleteBtn.textContent = "Delete";
         deleteBtn.classList.add("delete-button"); // Add a CSS class for styling
 
-        deleteBtn.addEventListener("click", () => {
+        deleteBtn.addEventListener("dblclick", () => {
             deleteTab(index);
         });
 

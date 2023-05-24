@@ -14,8 +14,7 @@ input {
     border-radius: 5px;
 }
 
-button,
-#delete-btn {
+button {
     background: #2b22ae;
     color: white;
     padding: 10px 20px;
@@ -38,6 +37,30 @@ button:hover {
     transition: background 0.3s, color 0.3s;
 }
 
+
+
+#delete-btn,.delete-button{
+    background: #C82332;
+}
+
+.delete-button{
+    background: #C82332 !important;
+    color: white;
+    padding: 4px 8px; /* Adjust the padding values to make the button smaller */
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Add a left margin for spacing */
+}
+
+.delete-button:hover {
+    background: red !important;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+
 #delete-btn:hover {
     background: #f50505;
     transition: background 0.3s, color 0.3s;
@@ -48,7 +71,7 @@ button:active,
     transform: translateY(2px);
 }
 
-.edit-button,.delete-button{
+.edit-button{
     background: #2b22ae;
     color: white;
     padding: 4px 8px; /* Adjust the padding values to make the button smaller */
@@ -65,14 +88,7 @@ button:active,
     transition: background 0.3s, color 0.3s;
 }
 
-.delete-button{
-    background-color: #482cff;
-}
 
-.delete-button:hover {
-    background: red;
-    transition: background 0.3s, color 0.3s;
-}
 
 
 ul {
