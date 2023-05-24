@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 600px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #2b22ae;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+
+button,
+#delete-btn {
+    background: #2b22ae;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #2b22ae;
+    cursor: pointer;
+    width: 150px; /* Adjust the width value as needed */
+    margin-right: 10px; /* Add a right margin for spacing */
+}
+
+button:last-child,
+#delete-btn:last-child {
+    margin-right: 0; /* Remove the right margin for the last button */
+}
+
+button:hover {
+    background: #482cff;
+    transition: background 0.3s, color 0.3s;
+}
+
+#delete-btn:hover {
+    background: #f50505;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:active,
+#delete-btn:active {
+    transform: translateY(2px);
+}
+
+.edit-button,.delete-button{
+    background: #2b22ae;
+    color: white;
+    padding: 4px 8px; /* Adjust the padding values to make the button smaller */
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Add a left margin for spacing */
+}
+
+
+.edit-button:hover {
+    background: #482cff;
+    transition: background 0.3s, color 0.3s;
+}
+
+.delete-button{
+    background-color: #482cff;
+}
+
+.delete-button:hover {
+    background: red;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: #482cff; /* Change color on hover */
+}
